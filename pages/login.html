@@ -1,0 +1,40 @@
+<body>
+  <nav>
+    <p>
+      <a href="/" onclick="route()">Login</a>
+      <a href="/cadastro" onclick="route()">Cadastro</a>
+      <a href="/consumidor" onclick="route()">Consumidor</a>
+      <a href="/uc" onclick="route()">UC</a>
+    </p>
+  </nav>
+  <main class="mainLogin">
+    <h1><span>Login</span></h1>
+    <p>
+      <input
+        id="inputDocumentoL"
+        required="required"
+        type="text"
+        placeholder="CPF/CNPJ"
+      />
+    </p>
+
+    <p>
+      <input
+        id="inputLogin"
+        required="required"
+        type="password"
+        placeholder="Digite sua senha"
+      />
+    </p>
+
+    <a href="/consumidor">
+      <p>
+        <button id="buttonEntrar" type="submit" href="/">ENTRAR</button>
+      </p>
+    </a>
+
+    <p>
+      <a href="/cadastro">Não possuo uma conta</a>
+    </p>
+  </main>
+</body>

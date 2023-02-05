@@ -1,0 +1,63 @@
+<body>
+  <nav>
+    <p>
+      <a href="/" onclick="route()">Login</a>
+      <a href="/cadastro" onclick="route()">Cadastro</a>
+      <a href="/consumidor" onclick="route()">Consumidor</a>
+      <a href="/uc" onclick="route()">UC</a>
+    </p>
+  </nav>
+  <main class="mainCadastro">
+    <h1><span>Cadastro</span></h1>
+    <p>
+      <input
+        id="inputNome"
+        required="required"
+        type="text"
+        placeholder="Nome completo"
+      />
+    </p>
+
+    <p>
+      <input
+        id="inputEmail"
+        required="required"
+        type="email"
+        placeholder="Email"
+      />
+    </p>
+
+    <p>
+      <input
+        id="inputDocumentoC"
+        required="required"
+        type="text"
+        placeholder="CPF/CNPJ"
+      />
+    </p>
+
+    <p>
+      <input
+        id="inputSenha"
+        required="required"
+        type="password"
+        placeholder="Digite sua senha"
+      />
+    </p>
+
+    <p>
+      <input
+        id="inputConfirmacaoSenha"
+        required="required"
+        type="password"
+        placeholder="Confirme sua senha"
+      />
+    </p>
+
+    <a href="/">
+      <p>
+        <button id="buttonCadastrar" type="submit">CADASTRAR</button>
+      </p>
+    </a>
+  </main>
+</body>
